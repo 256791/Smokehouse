@@ -1,0 +1,27 @@
+#ifndef CONSTANS_H
+#define CONSTANS_H
+
+// I/O PINS
+
+#define RELAY_HEATER 16
+#define RELAY_SMOKER 0
+#define RELAY_FAN 2
+
+#define MAX6675_DO 12
+#define MAX6675_CS 15
+#define MAX6675_CLK 14
+
+
+// CONSTANS
+
+#define MEASURE_INTERVAL 1000
+#define PID_INTERVAL 5000
+#define RELAY_SWITCH_TIME 200
+
+// WIFI
+
+#define SSID ""
+#define PASSWORD ""
+#define M_DNS "ESP12E_SMOKEHOUSE"
+
+#endif
